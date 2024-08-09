@@ -400,10 +400,11 @@ main{
 
  .smile{
   display:flex;
-  justify-content: baseline;
+  justify-content: center;
   align-items: center;
   width:100%;
   max-width:1920px;
+  flex-wrap: wrap;
  }
  .smile > strong{
   font-size:70px;
